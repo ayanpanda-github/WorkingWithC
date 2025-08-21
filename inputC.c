@@ -7,3 +7,4 @@ int main(void)
     scanf("%99s", name); // Read user input "%99s" - up to 99 characters
     printf("Hello, %s\n", name);// %s - format specifier for strings // %% = escape sequence for literal %
 }
+

@@ -17,3 +17,27 @@ printf("What's your name? "); // Prompt user for input
 scanf("%99s", name); // Read user input "%99s" - up to 99 characters
 printf("Hello, %s\n", name); // %s - format specifier for strings // %% = escape sequence for literal %
 ```
+```c
+ scanf("%d %d", &x, &y); // Read user input %d - format specifier for integers
+ ```
+
+
+ || -> or 
+ && -> and
+
+ ## loops 
+
+ # for loop 
+ ```c
+ for (counter = 0; counter < 4 ; counter += 1){
+        printf("meow!\n");
+    }
+```
+# while loop
+```
+while (counter > 0){
+        printf("meow!\n");
+        counter--;
+}
+```
+
