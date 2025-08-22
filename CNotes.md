@@ -41,3 +41,14 @@ while (counter > 0){
 }
 ```
 
+# do while loop
+``` c
+do {
+        printf("height: ");
+        scanf("%d", &n);
+    } while (n<1);
+
+```
+
+
+
