@@ -1,19 +1,21 @@
 #include <stdio.h>
-int ger_size(void);
+int get_size(void);
+void print_grid(int n){
+    for (int i = 0; i<n; i++){
+        for (int j = 0; j<n; j++){
+            printf("#");
+        }
+        printf("\n");
+    }
+}
 
 int main(void){
 
     int n =  get_size();
 
-    
+    print_grid(n);
 
-    for(int i = 0; i< n ; i++){
-        for (int j = 0 ; j<n ; j++){
-            printf("#");
-        }
-        printf("\n");
-    }
-    //printf("\n");
+    
 }
 
     
